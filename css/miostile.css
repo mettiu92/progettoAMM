@@ -1,0 +1,111 @@
+div#tutto{
+	//background-color:green;
+	overflow:hidden;
+	width:100%;}
+
+header {
+	background-image : url('../immagini/t-shirt_vans.jpeg');
+	background-repeat :repeat-x; 
+	padding : 20px;
+	min-width : 98%;
+	border-right : 2%;
+	min-height:150px;
+	}
+
+div#menu-header ul li {
+	background-color:black;
+	overflow:hidden;
+	float:left;
+	width: 274px;
+	height: 20px;
+	position:relative;
+	top:90px;
+	left:195px;
+	text-align:center;	
+	}
+
+div#sidebarsx {
+	float : left;
+	width: 19%;
+	padding-bottom:40% ;
+	min-height:300px;
+	}
+
+div#sidebarsx ul li {
+	overflow:hidden;
+	}
+
+div#sidebardx {
+	float : right;
+	width: 19%;
+	padding-bottom:40%;
+	min-height:300px;
+	}
+
+div#content {
+    	margin-left: 21%;
+    	margin-right: 21%;
+    	padding-bottom: 19%;
+    	padding-left: 10px;
+    	min-height: 380px;
+	}
+form#login{
+	width: 350px;
+	border: 5px solid black;
+    	padding-bottom: 10px;
+	position: relative;
+	top:100px;
+	left:170px;
+	}
+
+input{ 
+	position: relative;
+	left: 25%;
+	}
+
+button{
+	position: relative;
+	left:40%;
+	}
+
+div#clear{
+	clear : both;
+	background-color:#B2B2B2;
+	}
+
+div#footer {
+	position:relative;
+	background-color : black;
+	text-align:center;
+	bottom:0px;
+	min-height:50px;
+	}
+
+a:link{
+	color:#FF2400;
+	text-decoration:none;
+	}
+
+a:visited{
+	color:#FF9900;
+	text-decoration:none;
+	}
+
+#griglia {
+         padding: 0;
+         margin: 0;
+}
+
+#griglia > li {
+         display: inline-block;
+         width:  160px;
+         height: 160px;
+         margin: 10px;
+}
+
+#container {
+         background: #e3e3e3;
+         max-width:850px;
+         margin:0 auto;
+         padding: 20px;
+}
